@@ -1,0 +1,16 @@
+{application, ecrecover,
+ [{description, "Erlang access to recoverable sign and recovery in libsecp256k1"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, { ecrecover_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
