@@ -1,8 +1,14 @@
 ecrecover
 =====
 
-A Proof of Concentp OTP application to access to recoverable sign and recovery in libsecp256k1.
+A Proof of Concept Erlang port application providing limited access to recoverable sign and pub_key recovery functions in libsecp256k1.
 It works for me. It may not work for you. I do not provide support for included code.
+
+Notes
+-----
+
+Signatures are in raw compact form (no DER). Recovered public key has no type signature (no header).
+
 
 Build
 -----
